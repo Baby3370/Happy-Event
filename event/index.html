@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy events</title>
+  <style media="screen">
+
+    #a{
+      height: 90vh;
+      width: 90vw;
+      margin: 5vh 5vw;
+      background-color: #eee;
+      background-position: center;
+      background-size: cover;
+
+      animation: ani 15s infinite alternate;
+
+    }
+
+    @keyframes ani{
+      1%{background-image:url("event1 background.jpg");}
+      25%{background-image:url("bk5.webp");}
+      50%{background-image:url("c4.jfif");}
+      75%{background-image:url("haldi.jpg");}
+      100%{background-image:url("rr.webp");}
+    }
+    .b{
+      color:white;
+      font-family:courier;
+       text-align: center;
+    }
+    #m{
+      background-color:#FF8FB1;
+      border-radius: 10px;
+    }
+    #n{
+      background-color:#8D72E1;
+    }
+    #x{
+      background-color:#9A1663;
+    }
+    #v{
+      background-color:#FF731D;
+    }
+    #c{
+      background-color:#E0144C;
+    }
+    button{
+      border-radius: 13px;
+      padding:8px;
+      width:150px;
+    }
+    button1{
+      background-color: blue;
+    }
+  </style>
+</head>
+<body>
+  <div id="a">
+   <h1 class="b">Welcome to Happy Events<p>&#128151;</p>
+<p>
+  An event is not just celebration,it speaks about how much you are blessed to sorrounded with your loved one's.
+  We are here to help you to creat a memories with the celebration.
+</p>
+     </h1><center>
+
+
+
+     <table>
+       <tr><td><a href="2.html"><button type="button" name="button" id="m" onmouseover="bigImg(this)" onmouseout="normalImg(this)">Baby Shower</button></a></td>
+
+
+       </tr>
+       <tr><td><a href="3.html"><button type="button" name="button" id="n" onmouseover="bigImg(this)" onmouseout="normalImg(this)">Naming ceremony</button></a></td>
+
+       </tr>
+       <tr><td><a href="4.html"><button type="button" name="button" id="x" onmouseover="bigImg(this)" onmouseout="normalImg(this)">Birthday Celebration</button></a></td>
+
+       </tr>
+       <tr><td><a href="5.html"><button type="button" name="button" id="v" onmouseover="bigImg(this)" onmouseout="normalImg(this)">Haldi Function</button></a></td>
+
+       </tr>
+       <tr><td><a href="6.html"><button type="button" name="button" id="c" onmouseover="bigImg(this)" onmouseout="normalImg(this)">Wedding reception</button></td>
+
+       </tr>
+     </table>
+ </center>
+
+ <script type="text/javascript">
+ function bigImg(x) {
+ x.style.height = "40px";
+ x.style.width = "190px";
+ }
+
+ function normalImg(x) {
+ x.style.height = "40px";
+ x.style.width = "150px";
+ }
+ </script>
+
+
+
+
+  </div>
+<footer>
+<center>
+  <a href="7.html"><button type="button" name="button1" >Contact Us</button></a>
+</center>
+</footer>
+
+</body>
+</html>
